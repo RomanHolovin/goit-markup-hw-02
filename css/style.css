@@ -66,6 +66,14 @@ color:#404bbf;
   text-decoration: none;
   list-style: none;
 }
+.headline{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color:#2e2f42 ;
+}
 .nav-link {
   color: var(--navyblue, #2e2f42);
   /* Body Medium */
@@ -79,8 +87,7 @@ color:#404bbf;
 .head {
   background: var(--navyblue, #2e2f42);
 }
-.address {
-}
+
 
 .section-team{
   background-color: #F4F4FD
@@ -132,8 +139,7 @@ color:#404bbf;
 
 
 
-.list-snippet-step {
-}
+
 .list-snipper-name {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */

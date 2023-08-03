@@ -31,12 +31,11 @@ address{
 }
 .link-slogan {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
+   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
 }

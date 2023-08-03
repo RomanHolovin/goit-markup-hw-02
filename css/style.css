@@ -13,23 +13,21 @@
   --dairy: #fcfcfc;
 }
 body {
-  display: flex;
-  padding: 16px 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
   align-self: stretch;
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 .header {
-  border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
 }
 .nav {
+}
+address{
+  font-style: normal;
 }
 .link {
   color: var(--iris, #4d5ae5);
@@ -40,6 +38,7 @@ li{
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
 }
 .studio-black {
   color: var(--navyblue, #2e2f42);
@@ -49,6 +48,7 @@ li{
 }
 .list {
   text-decoration: none;
+  list-style: none;
 }
 .nav-link {
   color: var(--navyblue, #2e2f42);
@@ -64,6 +64,10 @@ li{
   background: var(--navyblue, #2e2f42);
 }
 .address {
+}
+
+.section-team{
+  background-color: #F4F4FD
 }
 .list-address {
   color: var(--slate, #434455);
@@ -87,13 +91,15 @@ li{
   letter-spacing: 1.12px;
 }
 .btn-hed {
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
   background: var(--iris, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+
+
 }
 .list-snippet-step {
 }
@@ -120,8 +126,7 @@ li{
 .headline {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  /* Header 2 */
-  font-family: Roboto;
+   font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -134,6 +139,7 @@ li{
   background: url(<path-to-image>), lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
 }
 .img-team {
+  background-color: #FFFFFF
 }
 
 .footer {
@@ -151,14 +157,19 @@ li{
   letter-spacing: 0.32px;
 }
 .list-button {
-  display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
-  border-radius: 4px;
   background: var(--ocean, #404bbf);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .list-work-portfolio {
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
+}
+.portfolio-button{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color:#4d5ae5;
+  background-color: #F4F4FD;
+  cursor: pointer;
 }

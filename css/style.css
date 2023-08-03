@@ -29,7 +29,7 @@ li {
 address{
   font-style: normal;
 }
-.link {
+.link-slogan {
   color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
@@ -40,6 +40,17 @@ address{
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
 }
+.list-link-nav{
+  font-weight: 500;
+  font-size: 16px ;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:#2e2f42;
+
+}
+
+
+
 .studio-black {
   color: var(--navyblue, #2e2f42);
 }

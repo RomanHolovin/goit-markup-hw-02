@@ -78,7 +78,14 @@ address{
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color:#434455;
 }
+
+.list-address :hover{color:#404bbf;}
+.list-address :focus{color:#404bbf;}
+
+
+
 .hed-title {
   color: var(--white, #fff);
   text-align: center;
@@ -98,9 +105,17 @@ address{
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-
-
+  cursor: pointer;
 }
+.btn-hed:hover{
+  background-color: #404BBF;
+}
+.btn-hed:focus{
+  background-color: #404BBF;
+}
+
+
+
 .list-snippet-step {
 }
 .list-snipper-name {

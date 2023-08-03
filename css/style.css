@@ -48,9 +48,15 @@ address{
   color:#2e2f42;
 
 }
-
-
-
+.link{
+  text-decoration:none;
+}
+.list-link-nav:hover, .list-link-nav:focus {
+color:#404bbf;
+} 
+.list-address:hover, .list-address:focus{
+   color:#404bbf;
+}
 .studio-black {
   color: var(--navyblue, #2e2f42);
 }
@@ -149,7 +155,7 @@ address{
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.headline {
+.head-line {
   color: var(--navyblue, #2e2f42);
   text-align: center;
    font-family: Roboto;

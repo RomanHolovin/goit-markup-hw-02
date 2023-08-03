@@ -27,6 +27,17 @@ li {
 address {
   font-style: normal;
 }
+.text-foot-two{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color:#2e2f42;
+  
+}
+
+
 .link-slogan {
   color: var(--iris, #4d5ae5);
   font-size: 18px;

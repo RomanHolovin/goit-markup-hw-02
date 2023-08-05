@@ -106,7 +106,9 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.img-team{
+  background-color: #FFFFFF;
+}
 .list-address :hover {
   color: #404bbf;
 }
@@ -126,7 +128,7 @@ address {
 .btn-hed {
   background: var(--iris, #4d5ae5);
   font-weight: 500;
-
+font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -212,4 +214,5 @@ address {
   color: #4d5ae5;
   background-color: #f4f4fd;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }

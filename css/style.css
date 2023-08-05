@@ -13,7 +13,6 @@
   --dairy: #fcfcfc;
 }
 body {
-  align-self: stretch;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -27,16 +26,14 @@ li {
 address {
   font-style: normal;
 }
-.text-foot-two{
+.text-foot-two {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color:#2e2f42;
-  
+  color: #2e2f42;
 }
-
 
 .link-slogan {
   color: var(--iris, #4d5ae5);
@@ -87,12 +84,12 @@ address {
 .nav-link {
   color: var(--navyblue, #2e2f42);
   /* Body Medium */
-  font-family: Roboto;
+ 
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .head {
   background: var(--navyblue, #2e2f42);
@@ -104,13 +101,10 @@ address {
 .list-address {
   color: var(--slate, #434455);
   /* Body */
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
-  color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .list-address :hover {
@@ -123,18 +117,16 @@ address {
 .hed-title {
   color: var(--white, #fff);
   text-align: center;
-  /* Header 1 */
-  font-family: Roboto;
   font-size: 56px;
   font-style: normal;
-  font-weight: 700;
+  
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 .btn-hed {
   background: var(--iris, #4d5ae5);
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -151,57 +143,49 @@ address {
 .list-snipper-name {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .list-snippet-text {
-  color: var(--slate, #434455);
-  /* Body */
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .section-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  font-family: Roboto;
+
   font-size: 36px;
   font-style: normal;
-  font-weight: 700;
+
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.portfolio-button:hover, .portfolio-button:focus{
-  color: #FFFFFF;
-  background-color: #404BBF;
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
-
 
 .head-line {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  font-family: Roboto;
+
   font-size: 36px;
   font-style: normal;
-  font-weight: 700;
+ 
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .img-snippet {
-  border: 1px solid var(--cornflower, #e7e9fc);
+ 
   background: url(<path-to-image>), lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
-}
-.img-team {
-  background-color: #ffffff;
 }
 
 .footer {
@@ -211,22 +195,16 @@ address {
 .text-footer {
   color: var(--cloud, #f4f4fd);
   /* Body */
-  font-family: Roboto;
+
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
-.list-button {
-  background: var(--ocean, #404bbf);
-}
-.list-work-portfolio {
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--white, #fff);
-}
+
+
 .portfolio-button {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
